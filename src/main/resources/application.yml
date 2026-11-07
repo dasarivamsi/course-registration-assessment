@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: course-waitlist
+
+course-waitlist:
+  default-offering:
+    offering-id: CS201-FALL-2026
+    course-id: CS201
+    capacity: 2
+    prerequisite-course-ids:
+      - CS101
+      - MATH101
+
+server:
+  error:
+    include-message: never
